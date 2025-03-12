@@ -103,4 +103,5 @@ Here are some ideas to get you started:
 
 # 🧑Github
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&hide=python&layout=donut&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)
+<!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&hide=python&layout=donut&theme=transparent)-->

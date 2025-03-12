@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 ### Application Framework
 
 <div>
-  <img alt="Spring" src ="https://img.shields.io/badge/SPRING-6DB33F?&style=for-the-badge&logo=Spring&logoColor=white"/> 
+  <img alt="Spring" src ="https://img.shields.io/badge/SPRING-6DB33F?&style=for-the-badge&logo=Spring&logoColor=white"/>
   <img alt="SpringBoot" src ="https://img.shields.io/badge/SPRINGBOOT-6DB33F?&style=for-the-badge&logo=SpringBoot&logoColor=white"/> 
   <img alt="SpringSecurity" src ="https://img.shields.io/badge/springsecurity-6DB33F?&style=for-the-badge&logo=springsecurity&logoColor=white"/>
   <img alt="SpringCloud" src ="https://img.shields.io/badge/SpringCloud-6DB33F?&style=for-the-badge&logo=Spring&logoColor=white"/>
@@ -102,6 +102,6 @@ Here are some ideas to get you started:
 
 
 # 🧑Github
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)](https://github.com/koboolean)
 <!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&hide=python&layout=donut&theme=transparent)-->

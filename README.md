@@ -100,6 +100,22 @@ Here are some ideas to get you started:
 
 ---
 
+# 💻 Project
+
+## SOLT
+
+### 나홀로 여행자를 위한 추천 앱 (Flutter, Firebase)
+<p>Project : https://github.com/koboolean/chang_2nd_main_project</p>
+<p>Portfolio URL : https://www.cv-fit.com/portDetail/koboolean/XAr0Y23mGn/3</p>
+
+## [CV-FIT](https://cv-fit.com)
+
+### 포트폴리오 및 이력서 관리 프로젝트 (React, Spring Boot)
+<p>Project : https://github.com/kobooleans</p>
+<p>Portfolio URL : https://www.cv-fit.com/portDetail/koboolean/XAr0Y23mGn/1</p>
+
+
+---
 
 # 🧑Github
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)

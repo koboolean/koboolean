@@ -106,19 +106,16 @@ Here are some ideas to get you started:
 
 ### 나홀로 여행자를 위한 추천 앱 (Flutter, Firebase)
 <p>Project : https://github.com/koboolean/chang_2nd_main_project</p>
-<p>Portfolio URL : https://www.cv-fit.com/portDetail/koboolean/XAr0Y23mGn/3</p>
 
 ## [CV-FIT](https://cv-fit.com)
 
 ### 포트폴리오 및 이력서 관리 프로젝트 (React, Spring Boot)
 <p>Project : https://github.com/kobooleans</p>
-<p>Portfolio URL : https://www.cv-fit.com/portDetail/koboolean/XAr0Y23mGn/1</p>
 
 ## MetaGen
 
 ###  데이터 사전 또는 규칙 기반 명명법을 활용하여 메소드와 함수명을 자동으로 생성하고, 이를 기반으로 설계서 및 테스트 시나리오 작성을 지원
 <p>Project : https://github.com/meta-gen</p>
-<p>Portfolio URL : https://www.cv-fit.com/portDetail/koboolean/XAr0Y23mGn/12</p>
 <p>Docs URL : https://metagen-react.vercel.app/</p>
 
 ---

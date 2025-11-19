@@ -118,6 +118,24 @@ Here are some ideas to get you started:
 <p>Project : https://github.com/meta-gen</p>
 <p>Docs URL : https://metagen-react.vercel.app/</p>
 
+## Moti
+
+### Moti 소개
+
+Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼입니다.  
+
+#### GitHub Page
+- https://github.com/moti-service
+
+#### Web Page
+- [홍보 페이지](https://motitour.com/)
+
+#### Google Playstore
+- [구글 스토어](https://play.google.com/store/apps/details?id=com.koboolean.moti)
+
+#### Apple Store
+- [애플 스토어](https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255)
+
 ---
 
 # 🧑Github

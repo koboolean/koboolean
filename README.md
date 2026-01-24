@@ -75,6 +75,7 @@ Here are some ideas to get you started:
 <div>
   <img alt="Flutter" src ="https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white"/> 
   <img alt="React" src ="https://img.shields.io/badge/REACT-61DAFB?&style=for-the-badge&logo=React&logoColor=black"/> 
+  <img alt="VueJS" src ="https://img.shields.io/badge/Vue.js-4FC08D?&style=for-the-badge&logo=Vue.js&logoColor=black"/>
 </div>
 
 ## DevOps

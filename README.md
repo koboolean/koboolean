@@ -140,6 +140,6 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 ---
 
 # 🧑Github
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)
+[![Anurag's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)](https://github.com/koboolean)
 <!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&hide=python&layout=donut&theme=transparent)-->

@@ -137,7 +137,6 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 #### Apple Store
 - [애플 스토어](https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255)
 
----[
 
 # 🧑Github
 [![Anurag's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)

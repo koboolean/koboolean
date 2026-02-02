@@ -92,6 +92,13 @@ Here are some ideas to get you started:
   <img alt="Redis" src ="https://img.shields.io/badge/redis-DC382D?&style=for-the-badge&logo=redis&logoColor=white"/>
 </div>
 
+## AI / LLM
+<div>
+  <img alt="SpringAI" src ="https://img.shields.io/badge/SpringAI-6DB33F?&style=for-the-badge&logo=Spring&logoColor=white"/>
+  <img alt="langchain" src ="https://img.shields.io/badge/langchain-1C3C3C?&style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img alt="langgraph" src ="https://img.shields.io/badge/langgraph-1C3C3C?&style=for-the-badge&logo=langgraph&logoColor=white"/>
+</div>
+
 ## 국내 통합 프레임워크
 <div>
   <img alt="exbuilder" src ="https://img.shields.io/badge/exbuilder-3776AB?&style=for-the-badge&logo=framework&logoColor=white"/>

@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 # 🌱 **지속적으로 학습하고 성장하는 개발자가 되기 위해 노력합니다**
 
-현재 Spring 기반 백엔드 개발을 중심으로 MSA, Spring Security, Next.js, Kotlin, Java 9~21 등을 학습하며 효율적인 시스템 설계와 최적화에 집중하고 있습니다.
+현재 Spring 기반 백엔드 개발을 중심으로 MSA, Spring Security, Spring Batch, AX 등을 학습하며 효율적인 시스템 설계와 최적화에 집중하고 있습니다.
 
 
 # 💻 Stack

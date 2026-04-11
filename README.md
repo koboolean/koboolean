@@ -1,21 +1,3 @@
-<!--
-
-## Hi there 👋
-
-**koboolean/koboolean** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # 🌱 **지속적으로 학습하고 성장하는 개발자가 되기 위해 노력합니다**
 
 현재 Spring 기반 백엔드 개발을 중심으로 MSA, Spring Security, Spring Batch, AX 등을 학습하며 효율적인 시스템 설계와 최적화에 집중하고 있습니다.
@@ -118,7 +100,7 @@ Here are some ideas to get you started:
 ## [CV-FIT](https://cv-fit.com)
 
 ### 포트폴리오 및 이력서 관리 프로젝트 (React, Spring Boot)
-<p>Project : https://github.com/kobooleans</p>
+<p>Project : https://github.com/kobooleans/resume-project</p>
 
 ## MetaGen
 
@@ -132,17 +114,10 @@ Here are some ideas to get you started:
 
 Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼입니다.  
 
-#### GitHub Page
-- https://github.com/moti-service
-
-#### Web Page
-- [홍보 페이지](https://motitour.com/)
-
-#### Google Playstore
-- [구글 스토어](https://play.google.com/store/apps/details?id=com.koboolean.moti)
-
-#### Apple Store
-- [애플 스토어](https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255)
+<p>Github : https://github.com/moti-service</p>
+<p>Web Page : https://motitour.com/</p>
+<p>Google Playstore : https://play.google.com/store/apps/details?id=com.koboolean.moti</p>
+<p>Apple Store : https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255</p>
 
 
 # 🧑Github

@@ -6,6 +6,70 @@ Spring 기반 백엔드 개발자로 단순 구현을 넘어 **사용자에게 �
 
 ---
 
+# 💻 Project
+
+## 🧭 Moti
+### 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼
+
+👉 [GitHub](https://github.com/moti-service) · [Web](https://motitour.com/) · [Google Play](https://play.google.com/store/apps/details?id=com.koboolean.moti) · [App Store](https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255)
+
+- 기획부터 개발, 배포까지 **혼자서 A-Z 전 과정을 담당**
+- 여행 도메인을 기반으로 **사용자 맞춤형 추천 경험 설계 및 구현**
+- 여행 루트를 유연하게 구성하기 위한 **도메인 중심 데이터 구조 설계**
+
+👉 Backend 관점  
+- 추천/여행 도메인을 기준으로 **API 구조 및 데이터 모델 직접 설계**
+- 사용자 입력과 여행 데이터를 결합하는 **추천 로직 구현 및 흐름 최적화**
+- 서비스 흐름을 고려한 **데이터 처리 및 상태 관리 구조 설계**
+
+---
+
+## ⚙️ MetaGen
+### 데이터 사전 또는 규칙 기반 명명법을 활용하여 메소드와 함수명을 자동으로 생성하고, 설계서 및 테스트 시나리오 작성을 지원하는 자동화 도구
+
+👉 [GitHub](https://github.com/meta-gen) · [Docs](https://metagen-react.vercel.app/)
+
+- 반복적인 네이밍 작업을 줄이기 위한 **개발 생산성 자동화 도구**
+- 규칙 기반 네이밍을 통해 **일관된 코드 품질 유지**
+- 설계 → 테스트 흐름까지 이어지는 **개발 프로세스 개선 구조 설계**
+
+👉 Backend 관점  
+- 네이밍 규칙 및 데이터 사전을 기반으로 한 **생성 로직 설계**  
+- 설계 → 테스트로 이어지는 **데이터 흐름 구조 정의**  
+- 일관된 결과 생성을 위한 **도메인 모델링 및 처리 로직 구현** 
+
+---
+
+## CV-FIT
+### 포트폴리오 및 이력서 관리 프로젝트 (React, Spring Boot)
+
+👉 [Service](https://cv-fit.com) · [GitHub](https://github.com/kobooleans/resume-project)
+
+- 포트폴리오와 이력서 관리를 위한 서비스 구현
+
+👉 Backend 관점  
+- 사용자/이력서 도메인 기반 **데이터 모델 및 API 설계**  
+- 이력서 데이터의 생성·수정·조회 흐름을 위한 **CRUD 구조 구현**  
+- 프론트엔드와의 연동을 고려한 **REST API 설계 및 데이터 처리**  
+---
+
+## SOLT
+### 나홀로 여행자를 위한 추천 앱 (Flutter, Firebase)
+
+👉 [GitHub](https://github.com/koboolean/chang_2nd_main_project)
+
+- 여행 추천을 주제로 진행한 프로젝트
+
+---
+
+# 🧠 이런 걸 중요하게 생각합니다
+
+- 기능 구현보다 **구조와 흐름을 먼저 고민하는 개발**
+- 반복 작업을 줄이기 위한 **자동화와 생산성 개선**
+- “일단 돌아가는 코드”보다 **지속 가능한 코드**
+
+---
+
 # 💻 Stack
 
 ## Backend
@@ -93,70 +157,6 @@ Spring 기반 백엔드 개발자로 단순 구현을 넘어 **사용자에게 �
   <img alt="ExBuilder" src="https://img.shields.io/badge/EXBUILDER-3776AB?style=for-the-badge"/>
   <img alt="XPlatform" src="https://img.shields.io/badge/XPLATFORM-3776AB?style=for-the-badge"/>
 </div>
-
----
-
-# 💻 Project
-
-## 🧭 Moti
-### 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼
-
-👉 [GitHub](https://github.com/moti-service) · [Web](https://motitour.com/) · [Google Play](https://play.google.com/store/apps/details?id=com.koboolean.moti) · [App Store](https://apps.apple.com/us/app/moti-%EB%AA%A8%ED%8B%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EC%97%AC%ED%96%89/id6753739255)
-
-- 기획부터 개발, 배포까지 **혼자서 A-Z 전 과정을 담당**
-- 여행 도메인을 기반으로 **사용자 맞춤형 추천 경험 설계 및 구현**
-- 여행 루트를 유연하게 구성하기 위한 **도메인 중심 데이터 구조 설계**
-
-👉 Backend 관점  
-- 추천/여행 도메인을 기준으로 **API 구조 및 데이터 모델 직접 설계**
-- 사용자 입력과 여행 데이터를 결합하는 **추천 로직 구현 및 흐름 최적화**
-- 서비스 흐름을 고려한 **데이터 처리 및 상태 관리 구조 설계**
-
----
-
-## ⚙️ MetaGen
-### 데이터 사전 또는 규칙 기반 명명법을 활용하여 메소드와 함수명을 자동으로 생성하고, 설계서 및 테스트 시나리오 작성을 지원하는 자동화 도구
-
-👉 [GitHub](https://github.com/meta-gen) · [Docs](https://metagen-react.vercel.app/)
-
-- 반복적인 네이밍 작업을 줄이기 위한 **개발 생산성 자동화 도구**
-- 규칙 기반 네이밍을 통해 **일관된 코드 품질 유지**
-- 설계 → 테스트 흐름까지 이어지는 **개발 프로세스 개선 구조 설계**
-
-👉 Backend 관점  
-- 네이밍 규칙 및 데이터 사전을 기반으로 한 **생성 로직 설계**  
-- 설계 → 테스트로 이어지는 **데이터 흐름 구조 정의**  
-- 일관된 결과 생성을 위한 **도메인 모델링 및 처리 로직 구현** 
-
----
-
-## CV-FIT
-### 포트폴리오 및 이력서 관리 프로젝트 (React, Spring Boot)
-
-👉 [Service](https://cv-fit.com) · [GitHub](https://github.com/kobooleans/resume-project)
-
-- 포트폴리오와 이력서 관리를 위한 서비스 구현
-
-👉 Backend 관점  
-- 사용자/이력서 도메인 기반 **데이터 모델 및 API 설계**  
-- 이력서 데이터의 생성·수정·조회 흐름을 위한 **CRUD 구조 구현**  
-- 프론트엔드와의 연동을 고려한 **REST API 설계 및 데이터 처리**  
----
-
-## SOLT
-### 나홀로 여행자를 위한 추천 앱 (Flutter, Firebase)
-
-👉 [GitHub](https://github.com/koboolean/chang_2nd_main_project)
-
-- 여행 추천을 주제로 진행한 프로젝트
-
----
-
-# 🧠 이런 걸 중요하게 생각합니다
-
-- 기능 구현보다 **구조와 흐름을 먼저 고민하는 개발**
-- 반복 작업을 줄이기 위한 **자동화와 생산성 개선**
-- “일단 돌아가는 코드”보다 **지속 가능한 코드**
 
 ---
 

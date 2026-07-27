@@ -164,8 +164,8 @@ Spring AI를 활용한 운세 생성과 일별 배치 기반 데이터 관리 �
 
 <div>
   <img alt="Spring AI" src="https://img.shields.io/badge/SPRING_AI-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
-  <img alt="LangChain" src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge"/>
-  <img alt="LangGraph" src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge"/>
+<!-- <img alt="LangChain" src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge"/>
+  <img alt="LangGraph" src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge"/> -->
 </div>
 
 ## 국내 통합 프레임워크

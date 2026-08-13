@@ -99,6 +99,13 @@ Spring AI를 활용한 운세 생성과 일별 배치 기반 데이터 관리 �
   <img alt="Spring Security" src="https://img.shields.io/badge/SPRING_SECURITY-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
   <img alt="Spring Cloud" src="https://img.shields.io/badge/SPRING_CLOUD-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
   <img alt="JPA" src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+</div>
+
+### API / GraphQL
+
+<div>
+  <img alt="GraphQL" src="https://img.shields.io/badge/GRAPHQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+  <img alt="Netflix DGS" src="https://img.shields.io/badge/NETFLIX_DGS-E50914?style=for-the-badge&logo=netflix&logoColor=white"/>
   <img alt="Swagger" src="https://img.shields.io/badge/SWAGGER-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
 </div>
 
@@ -164,8 +171,10 @@ Spring AI를 활용한 운세 생성과 일별 배치 기반 데이터 관리 �
 
 <div>
   <img alt="Spring AI" src="https://img.shields.io/badge/SPRING_AI-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
-<!-- <img alt="LangChain" src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge"/>
-  <img alt="LangGraph" src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge"/> -->
+<!-- 
+  <img alt="LangChain" src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge"/>
+  <img alt="LangGraph" src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge"/> 
+-->
 </div>
 
 ## 국내 통합 프레임워크
@@ -174,7 +183,6 @@ Spring AI를 활용한 운세 생성과 일별 배치 기반 데이터 관리 �
   <img alt="ExBuilder" src="https://img.shields.io/badge/EXBUILDER-3776AB?style=for-the-badge"/>
   <img alt="XPlatform" src="https://img.shields.io/badge/XPLATFORM-3776AB?style=for-the-badge"/>
 </div>
-
 ---
 
 # 🧑 GitHub

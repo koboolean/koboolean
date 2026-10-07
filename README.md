@@ -183,6 +183,7 @@ Spring AI를 활용한 운세 생성과 일별 배치 기반 데이터 관리 �
   <img alt="ExBuilder" src="https://img.shields.io/badge/EXBUILDER-3776AB?style=for-the-badge"/>
   <img alt="XPlatform" src="https://img.shields.io/badge/XPLATFORM-3776AB?style=for-the-badge"/>
 </div>
+
 ---
 
 # 🧑 GitHub

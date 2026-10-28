@@ -251,6 +251,6 @@ Spring을 중심으로 **서비스의 구조와 흐름을 설계하고 구현하
 
 # 🧑 GitHub
 
-[![GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=koboolean&show_icons=true&theme=transparent&rank_icon=github&line_height=28)](https://github.com/koboolean)
 
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)](https://github.com/koboolean)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=koboolean&size_weight=0.3&count_weight=0.3&layout=donut&theme=transparent)](https://github.com/koboolean)

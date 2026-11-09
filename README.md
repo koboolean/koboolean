@@ -6,18 +6,19 @@ Spring을 중심으로 **서비스의 구조와 흐름을 설계하고 구현하
 
 아이디어를 코드로 옮기는 데 그치지 않고 **기획 → 설계 → 개발 → 배포 → 운영 → 개선**까지 직접 경험하며, 지속적으로 발전시킬 수 있는 서비스를 만드는 것을 중요하게 생각합니다.
 
-여행 서비스, 개발 생산성 도구, AI 기반 서비스를 직접 개발해 왔으며, 현재는 서로 다른 환경의 GPU·CPU 자원을 연결하여 AI 추론 요청을 분산 처리하는 **InfraMesh**를 설계하고 개발하고 있습니다.
+여행 서비스, 개발 생산성 도구, AI 기반 서비스를 직접 개발해 왔으며, 현재는 서로 다른 환경의 GPU·CPU 자원을 연결하여 AI 추론 요청을 분산 처리하는 **InfraMesh**와 AI 기반 데이터 모델링·메타데이터 관리 오픈소스 플랫폼 **MetaMora**를 개발하고 있습니다.
 
 ## 🔭 주요 프로젝트
 
 - 🌐 **InfraMesh** — 이기종 GPU·CPU 자원을 연결하는 분산 AI 추론 인프라 플랫폼
+- 🧩 **MetaMora** — AI 기반 데이터 모델링·표준화 및 메타데이터 관리 오픈소스 플랫폼 *(개발 준비 중)*
+- ⚙️ **MetaGen** — 네이밍·설계·테스트를 지원하는 개발 생산성 자동화 도구 *(유지보수 종료)*
 - 🔮 **운결** — Spring AI와 Spring Batch 기반 개인 맞춤형 운세 인사이트 플랫폼
 - 🧭 **Moti** — 개인 맞춤형 여행 추천 및 일정 관리 서비스 *(운영 중단 · 재개발 예정)*
-- ⚙️ **MetaGen** — 네이밍·설계·테스트를 지원하는 개발 생산성 자동화 도구
 
 ## 💡 주요 관심 분야
 
-`Backend Architecture` · `Distributed Systems` · `AI Infrastructure` · `Developer Productivity` · `Service Design`
+`Backend Architecture` · `Distributed Systems` · `AI Infrastructure` · `Data Modeling` · `Metadata Management` · `Developer Productivity` · `Service Design`
 
 ---
 
@@ -63,6 +64,78 @@ AI 요청을 관리하고 실행할 Worker를 선택하는 과정과 실제 AI �
 | `infra-node` | Router / Worker 연결을 위한 공통 SDK 및 Contract |
 | `infra-router` | Worker 선택 및 Routing Strategy 구현을 위한 Reference Router |
 | `infra-worker` | AI Runtime과 연동하여 추론 요청을 실행하는 Reference Worker |
+
+---
+
+## 🧩 MetaMora
+
+### AI 기반 데이터 모델링, 데이터 표준화 및 메타데이터 관리를 통합하는 오픈소스 플랫폼
+
+> **프로젝트 상태: 개발 준비 중 · MetaGen 후속 프로젝트**
+
+**프로젝트 개요**
+
+MetaMora는 데이터베이스의 구조와 의미를 체계적으로 관리하기 위한 **오픈소스 데이터 모델링 및 메타데이터 관리 플랫폼**입니다.
+
+기존 MetaGen의 개발 경험을 바탕으로 데이터 모델링, 데이터 표준화, 메타데이터 관리 기능을 통합하고, AI를 활용한 데이터베이스 역공학과 자동화 기능으로 확장하는 것을 목표로 합니다.
+
+단순히 데이터 사전이나 설계 문서를 생성하는 도구를 넘어, **데이터베이스의 구조와 의미를 분석하고, 표준화하며, 변경 사항을 지속적으로 관리할 수 있는 플랫폼**을 지향합니다.
+
+**주요 개발 목표**
+
+- **Data Modeling** — 논리·물리 데이터 모델 설계 및 ERD 관리
+- **Metadata Management** — 데이터베이스 스키마, 테이블, 컬럼 및 관계 정보 통합 관리
+- **Data Standardization** — 표준 단어·용어·도메인 관리 및 표준 준수 검증
+- **Database Reverse Engineering** — 기존 DB 구조 분석 및 데이터 사전 자동 생성
+- **AI Metadata Intelligence** — AI 기반 컬럼 의미 추론 및 표준 용어 자동 매핑
+- **Schema Change Tracking** — 데이터베이스 스키마 변경 감지 및 이력 관리
+- **Impact Analysis** — 데이터 구조 변경에 따른 영향 범위 분석
+- **MCP Integration** — AI 에이전트와 메타데이터 플랫폼 간 연동 지원
+
+**Architecture / Roadmap**
+
+- 데이터 모델과 메타데이터를 통합 관리하기 위한 도메인 구조 설계
+- 다양한 RDBMS의 메타데이터를 수집하고 정규화하는 구조 설계
+- 논리·물리 데이터 모델과 실제 데이터베이스 스키마 간 매핑
+- 데이터 표준 사전 기반 컬럼 및 도메인 자동 매핑 기능
+- AI를 활용한 데이터베이스 구조 분석 및 업무적 의미 추론
+- AI 분석 결과에 대한 사용자 검토 및 승인 워크플로
+- 데이터베이스 스키마 변경 감지 및 영향 분석 기능 확장
+- REST API 및 MCP Server를 통한 외부 개발 도구 연동
+
+**Project Direction**
+
+Open Source Data Modeling & Metadata Management Platform
+
+---
+
+## ⚙️ MetaGen
+
+### 데이터 사전과 규칙 기반 명명법을 활용하여 개발 과정의 반복 작업을 줄이는 생산성 자동화 도구
+
+> **프로젝트 상태: 유지보수 종료 · 후속 프로젝트 MetaMora**
+
+👉 [GitHub](https://github.com/meta-gen) · [Docs](https://metagen-react.vercel.app/)
+
+**프로젝트 개요**
+
+MetaGen은 개발 과정에서 반복적으로 발생하는 메소드·함수 네이밍, 설계 문서 작성 및 테스트 시나리오 구성을 지원하기 위해 개발한 생산성 자동화 도구입니다.
+
+데이터 사전과 규칙 기반 자동화를 활용하여 개발 과정에서 반복적으로 발생하는 작업을 줄이고, 일관된 개발 산출물을 생성하는 것을 목표로 개발했습니다.
+
+기존 프로젝트의 신규 기능 개발 및 유지보수는 종료하고, 데이터 모델링과 메타데이터 관리 기능을 중심으로 확장한 후속 오픈소스 프로젝트 **MetaMora**로 개발 방향을 전환합니다.
+
+- 데이터 사전 및 규칙 기반 **메소드·함수명 자동 생성**
+- 일관된 네이밍 규칙을 통한 코드 가독성과 품질 개선
+- 설계서 및 테스트 시나리오 작성 지원
+- 반복적인 개발 작업을 줄이기 위한 자동화 구조 설계
+
+**Backend / Automation**
+
+- 데이터 사전과 명명 규칙을 활용한 생성 로직 설계
+- 일관된 결과 생성을 위한 규칙 및 데이터 모델링
+- 설계 → 테스트로 이어지는 데이터 처리 흐름 정의
+- 개발 생산성 향상을 위한 자동화 기능 구현
 
 ---
 
@@ -128,30 +201,6 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 - 초기 서비스 구조를 재검토하고 유지보수성과 확장성을 고려한 아키텍처 개선
 - 여행 추천 및 일정 관리 경험 개선
 - 서비스 운영 효율성과 인프라 비용을 고려한 배포 구조 재설계
-
----
-
-## ⚙️ MetaGen
-
-### 데이터 사전과 규칙 기반 명명법을 활용하여 개발 과정의 반복 작업을 줄이는 생산성 자동화 도구
-
-👉 [GitHub](https://github.com/meta-gen) · [Docs](https://metagen-react.vercel.app/)
-
-**프로젝트 개요**
-
-개발 과정에서 반복적으로 발생하는 메소드·함수 네이밍, 설계 문서 작성 및 테스트 시나리오 구성을 지원하기 위한 프로젝트입니다.
-
-- 데이터 사전 및 규칙 기반 **메소드·함수명 자동 생성**
-- 일관된 네이밍 규칙을 통한 코드 가독성과 품질 개선
-- 설계서 및 테스트 시나리오 작성 지원
-- 반복적인 개발 작업을 줄이기 위한 자동화 구조 설계
-
-**Backend / Automation**
-
-- 데이터 사전과 명명 규칙을 활용한 생성 로직 설계
-- 일관된 결과 생성을 위한 규칙 및 데이터 모델링
-- 설계 → 테스트로 이어지는 데이터 처리 흐름 정의
-- 개발 생산성 향상을 위한 자동화 기능 구현
 
 ---
 
@@ -235,7 +284,7 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 
 <div>
   <img alt="Firebase" src="https://img.shields.io/badge/FIREBASE-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
-  <img alt="Redis" src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img alt="Redis" src="https://img.shields.io/badge/REDIS-DC3829?style=for-the-badge&logo=redis&logoColor=white"/>
 </div>
 
 ## Frontend
@@ -254,7 +303,7 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 <div>
   <img alt="Flutter" src="https://img.shields.io/badge/FLUTTER-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/>
   <img alt="React" src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>
-  <img alt="Vue.js" src="https://img.shields.io/badge/VUE.JS-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white"/>
+  <img alt="Vue.js" src="https://img.shields.io/badge/VUE.JS-4FC08D.svg?style=for-the-badge&logo=Vue.js&logoColor=white"/>
 </div>
 
 ## DevOps / Infrastructure

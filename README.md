@@ -210,7 +210,7 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 
 ### 이력서와 포트폴리오 정보를 체계적으로 관리하기 위한 웹 서비스
 
-👉 [Service](https://cv-fit.com) · [GitHub](https://github.com/kobooleans/resume-project)
+👉 [GitHub](https://github.com/kobooleans/resume-project)
 
 - React와 Spring Boot 기반 이력서 관리 서비스
 - 사용자 및 이력서 정보를 중심으로 한 도메인 모델 설계

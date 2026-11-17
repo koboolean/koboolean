@@ -277,23 +277,34 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 
 ---
 
+
 # 💻 Tech Stack
 
 ## Backend
 
-### Application Framework
+### Language / Application Framework
 
 <div>
-  <img alt="Spring" src="https://img.shields.io/badge/SPRING-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
-  <img alt="Spring Boot" src="https://img.shields.io/badge/SPRINGBOOT-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"/>
+  <img alt="Java" src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img alt="Spring" src="https://img.shields.io/badge/SPRING-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="Spring Boot" src="https://img.shields.io/badge/SPRING_BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img alt="Spring Security" src="https://img.shields.io/badge/SPRING_SECURITY-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-  <img alt="Spring Cloud" src="https://img.shields.io/badge/SPRING_CLOUD-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
+  <img alt="Spring Cloud" src="https://img.shields.io/badge/SPRING_CLOUD-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="Spring Batch" src="https://img.shields.io/badge/SPRING_BATCH-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+</div>
+
+### ORM / Data Access
+
+<div>
   <img alt="JPA" src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+  <img alt="QueryDSL" src="https://img.shields.io/badge/QUERYDSL-0769AD?style=for-the-badge"/>
+  <img alt="MyBatis" src="https://img.shields.io/badge/MYBATIS-BF0000?style=for-the-badge"/>
 </div>
 
 ### API / GraphQL
 
 <div>
+  <img alt="REST API" src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge"/>
   <img alt="GraphQL" src="https://img.shields.io/badge/GRAPHQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
   <img alt="Netflix DGS" src="https://img.shields.io/badge/NETFLIX_DGS-E50914?style=for-the-badge&logo=netflix&logoColor=white"/>
   <img alt="Swagger" src="https://img.shields.io/badge/SWAGGER-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
@@ -303,7 +314,8 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 
 <div>
   <img alt="JUnit5" src="https://img.shields.io/badge/JUNIT5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
-  <img alt="Mockito" src="https://img.shields.io/badge/MOCKITO-59666C?style=for-the-badge&logo=junit5&logoColor=white"/>
+  <img alt="Mockito" src="https://img.shields.io/badge/MOCKITO-59666C?style=for-the-badge"/>
+  <img alt="Testcontainers" src="https://img.shields.io/badge/TESTCONTAINERS-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </div>
 
 ## Database
@@ -328,28 +340,37 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
 ### Web Technologies
 
 <div>
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"/>
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"/>
-  <img alt="JavaScript" src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"/>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TYPESCRIPT-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white"/>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 </div>
 
 ### Frameworks / Libraries
 
 <div>
-  <img alt="Flutter" src="https://img.shields.io/badge/FLUTTER-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>
-  <img alt="Vue.js" src="https://img.shields.io/badge/VUE.JS-4FC08D.svg?style=for-the-badge&logo=Vue.js&logoColor=white"/>
+  <img alt="React" src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img alt="Vue.js" src="https://img.shields.io/badge/VUE.JS-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"/>
+  <img alt="Flutter" src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
 </div>
 
 ## DevOps / Infrastructure
 
+### Container / Cloud
+
 <div>
   <img alt="Docker" src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img alt="Kubernetes" src="https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img alt="Jenkins" src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
-  <img alt="Liquibase" src="https://img.shields.io/badge/LIQUIBASE-2962FF?style=for-the-badge&logo=liquibase&logoColor=white"/>
   <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+</div>
+
+### CI/CD / Build / Migration
+
+<div>
+  <img alt="Jenkins" src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img alt="Gradle" src="https://img.shields.io/badge/GRADLE-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
+  <img alt="Flyway" src="https://img.shields.io/badge/FLYWAY-CC0200?style=for-the-badge&logo=flyway&logoColor=white"/>
+  <img alt="Liquibase" src="https://img.shields.io/badge/LIQUIBASE-2962FF?style=for-the-badge&logo=liquibase&logoColor=white"/>
 </div>
 
 ## Message Broker
@@ -358,19 +379,11 @@ Moti는 사용자의 여행 선호도를 기반으로 여행지를 추천하고,
   <img alt="Apache Kafka" src="https://img.shields.io/badge/APACHE_KAFKA-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
 </div>
 
-## AI / LLM
+## AI / LLM Integration
 
 <div>
-  <img alt="Spring AI" src="https://img.shields.io/badge/SPRING_AI-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
-  <img alt="Ollama" src="https://img.shields.io/badge/OLLAMA-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-  <img alt="vLLM" src="https://img.shields.io/badge/vLLM-4051B5?style=for-the-badge"/>
-</div>
-
-## Enterprise UI Frameworks
-
-<div>
-  <img alt="ExBuilder" src="https://img.shields.io/badge/EXBUILDER-3776AB?style=for-the-badge"/>
-  <img alt="XPlatform" src="https://img.shields.io/badge/XPLATFORM-3776AB?style=for-the-badge"/>
+  <img alt="Spring AI" src="https://img.shields.io/badge/SPRING_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="LangChain" src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 </div>
 
 ---
